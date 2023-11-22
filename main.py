@@ -16,7 +16,7 @@ with open("AI-Computer-Citizen-token.json") as f:
 CLIENT_ID = secrets["clientId"]
 CLIENT_SECRET = secrets["secret"]
 ASTRA_DB_KEYSPACE = "database"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "secret"
 
 auth_provider = PlainTextAuthProvider(CLIENT_ID, CLIENT_SECRET)
 cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
